@@ -1,3 +1,3 @@
-Live Site: file://localhost/Users/Administrator/Desktop/dws1/Project%201/index.html
+Live Site: 
 
-Repo: https://github.com/CoreyDavenportFullsail/dws1/tree/gh-pages/Project%201
+Repo:https://github.com/CoreyDavenportFullsail/dws1/tree/gh-pages/davenport-corey-project1
