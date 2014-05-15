@@ -48,7 +48,7 @@ li{
 	font-family: 'Helvetica';
 	list-style:none;
 }
-#menu li{
+nav{
 	text-align:center;
 	display: inline-block;
 	list-style: none;
@@ -78,6 +78,11 @@ a:link{
 	color:#FFFFFF;
 }
 
+
+a:visited{
+	color:#1397A4;
+}
+
 a:hover{
 	color: #BD2C33;
 }
@@ -86,9 +91,4 @@ a:hover{
 a:active{
 	color: #FFFFFF;
 	font-size: 24px;
-}
-
-
-a:visited{
-	color:#1397A4;
 }
