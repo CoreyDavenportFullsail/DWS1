@@ -69,6 +69,11 @@ li{
 	margin: 20px;
 }
 
+blockquote{
+	text-shadow: 2px, 2px, black;
+}
+
+
 a:hover{
 	color: #BD2C33;
 }
