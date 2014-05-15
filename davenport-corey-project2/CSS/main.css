@@ -11,7 +11,7 @@ header, section, footer, aside, nav, article,{
 /* Header styling */
 h1 {
 	font-family: 'Pacifico', cursive;
-	color: white;
+	color: #FFFFFF;
 	font-size: 55px;
 	text-align: center;
 }
@@ -32,7 +32,7 @@ body{
 /*Menu styling */
 #menu{
 	background: #BD2C33;
-	border: 1px solid white;
+	border: 1px solid #FFFFFF;
 	box-shadow: 3px 3px 3px #282828;
 	border-radius: 10px;
 	color: #BD2C33;
@@ -53,14 +53,13 @@ li{
 	display: inline-block;
 	list-style: none;
 	padding: 5px;
-	font: bold 16px Helvetica;
 	font-family: 'Helvetica', serif, cursive; font-weight: 400;
 }
 
 #content{
 	background: rgba(3,22,36,.5);
-	color: white;
-    border: 1px solid white;
+	color: #FFFFFF;
+    border: 1px solid #FFFFFF;
 	box-shadow: 3px 3px 3px #282828;
 	border-radius: 10px;
 	text-align: center;
@@ -70,23 +69,26 @@ li{
 }
 
 blockquote{
-	text-shadow: 2px, 2px, black;
+	text-shadow: 2px, 2px, #000000;
 }
 
+
+
+a:link{
+	color:#FFFFFF;
+}
 
 a:hover{
 	color: #BD2C33;
 }
 
-a:link{
-	color:white;
+
+a:active{
+	color: #FFFFFF;
+	font-size: 24px;
 }
+
 
 a:visited{
 	color:#1397A4;
-}
-
-a:active{
-	color: white;
-	font-size: 24px;
 }
