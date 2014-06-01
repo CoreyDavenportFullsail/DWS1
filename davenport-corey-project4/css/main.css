@@ -1,0 +1,191 @@
+*{
+	margin: 0px;
+	padding: 0px;
+
+}
+
+header, section, footer, aside, nav, article,{
+	display: block;
+}
+
+/* Header styling */
+h1 {
+	font-family: 'Pacifico', cursive;
+	color: #FFFFFF;
+	font-size: 55px;
+	text-align: center;
+}
+
+h2{
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+}
+/*Body styling */
+body{
+	background: #1397A4;
+	margin:.5px 0px; padding:0px;
+	text-align:center;
+	background-image: url("../images/congruent_pentagon.png");
+	background-repeat: repeat;
+	background-position: center;
+}
+/*Menu styling */
+#menu{
+	background: #BD2C33;
+	border: 1px solid #FFFFFF;
+	box-shadow: 3px 3px 3px #282828;
+	border-radius: 10px;
+	color: #BD2C33;
+	text-align: center;
+	opacity: .95;
+	margin: 20px;
+	
+}
+li{
+	text-align:center;
+	color:#BD2C33;
+	font-size:12;
+	font-family: 'Helvetica';
+	list-style:none;
+}
+nav{
+	text-align:center;
+	display: inline-block;
+	list-style: none;
+	padding: 5px;
+	font-family: 'Helvetica', serif, cursive; font-weight: 400;
+}
+
+#content{
+	background: rgba(3,22,36,.5);
+	color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+	box-shadow: 3px 3px 3px #282828;
+	border-radius: 10px;
+	font-family: Helvetica;
+	padding: 10px;
+	margin: 20px;
+	float:left;
+	width: 40%;
+	background-image: url("../images/stardust.png");
+	background-repeat: none;
+	
+}
+#ocontent{
+	background: rgba(3,22,36,.5);
+	color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+	box-shadow: 3px 3px 3px #282828;
+	border-radius: 10px;
+	font-family: Helvetica;
+	padding: 10px;
+	margin: 20px;
+	float:left;
+	width: 40%;
+	background-image: url("../images/stardust.png");
+	background-repeat: none;
+}
+blockquote{
+	text-shadow: 2px, 2px, #000000;
+}
+
+footer {
+	clear:both;
+}
+
+a:link{
+	color:#FFFFFF;
+}
+
+
+a:visited{
+	color:#1397A4;
+}
+
+a:hover{
+	color: #BD2C33;
+}
+
+
+a:active{
+	color: #FFFFFF;
+	font-size: 24px;
+}
+#form{
+	border: 3px solid white;
+	border-radius: 10px;
+	box-shadow: 3px 3px 3px #282828;
+	width: 220px;
+	height: 200px;
+	margin: 20px 0px;
+	padding: 30px;
+	background-image: url("../images/stardust.png");
+	
+}
+
+
+#info{
+	clear: both;
+	text-align: center;
+	padding: 20px;
+	border-top: 2px solid white;
+}
+
+.formInfo {
+	float: left;
+	text-align: right;
+	margin-right: 6px;
+	clear: both;
+
+}
+
+#submit {
+width: 40%;
+margin-top: 6px;
+margin-left: 25%;
+text-align: right;
+}
+
+input:focus {
+background-color: hsla(195,53.3%,79%, 0.2);
+}
+
+input:hover {
+background-color: #E23D80;
+}
+
+#label{
+	color: white;
+	text-align: left;
+	font-family:'Lemon',Arial,serif,cursive; bold 30 px ;
+}
+
+table{
+	border: 3px solid white;
+	background-color: black;
+	font-size: 24px;
+	padding: 10px;
+	width: 300px;
+}
+#tables{
+	background: rgba(3,22,36,.5);
+	color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+	box-shadow: 3px 3px 3px #282828;
+	border-radius: 10px;
+	font-family: Helvetica;
+	padding: 10px;
+	margin: 20px;
+	width: 40%;
+	background-image: url("../images/stardust.png");
+	background-repeat: none;
+}
+
+td{
+	color: white;
+	text-align: right;
+	
+}
