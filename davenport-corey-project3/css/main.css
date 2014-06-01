@@ -28,6 +28,9 @@ body{
 	background: #1397A4;
 	margin:.5px 0px; padding:0px;
 	text-align:center;
+	background-image: url("../images/congruent_pentagon.png");
+	background-repeat: repeat;
+	background-position: center;
 }
 /*Menu styling */
 #menu{
@@ -62,17 +65,36 @@ nav{
     border: 1px solid #FFFFFF;
 	box-shadow: 3px 3px 3px #282828;
 	border-radius: 10px;
-	text-align: center;
 	font-family: Helvetica;
 	padding: 10px;
 	margin: 20px;
+	float:left;
+	width: 40%;
+	background-image: url("../images/stardust.png");
+	background-repeat: none;
+	
 }
-
+#ocontent{
+	background: rgba(3,22,36,.5);
+	color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+	box-shadow: 3px 3px 3px #282828;
+	border-radius: 10px;
+	font-family: Helvetica;
+	padding: 10px;
+	margin: 20px;
+	float:left;
+	width: 40%;
+	background-image: url("../images/stardust.png");
+	background-repeat: none;
+}
 blockquote{
 	text-shadow: 2px, 2px, #000000;
 }
 
-
+footer {
+	clear:both;
+}
 
 a:link{
 	color:#FFFFFF;
